@@ -1,0 +1,82 @@
+:root {
+  --manrope: "Manrope", sans-serif;
+  --trans: 0.4s all ease;
+  --accent-color: #023e7d;
+}
+
+body {
+  background: #1b4332;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+  font-family: var(--manrope);
+}
+
+.all {
+  padding: 80px 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 15px;
+  margin-top: 0;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 100%;
+}
+
+.card {
+  width: 20%;
+  padding: 0.25rem;
+}
+
+.card .img img {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.card .inner {
+  height: 100%;
+  background: var(--accent-color);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.card span {
+  vertical-align: middle;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card .details {
+  padding: 15px;
+}
+
+.card .details {
+  font-size: 14px;
+}
